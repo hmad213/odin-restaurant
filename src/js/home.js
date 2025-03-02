@@ -1,4 +1,4 @@
-import image from "./images/background.jpg"
+import image from "../images/background.jpg"
 
 function loadHome(){
     let homeDiv = document.createElement("div");
@@ -13,7 +13,7 @@ function loadHome(){
     text.classList.add("text");
     img.src = image;
     heading.textContent = "Gourmet Hub";
-    subtitle.textContent = "Add something I dont know";
+    subtitle.textContent = "Experience Food Like Never Before!";
     button.textContent = "Order Now!";
     button.classList.add("homeButton");
 

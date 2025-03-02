@@ -139,3 +139,32 @@ header button:hover{
 #content > .menu button:hover{
     background-color: rgb(197, 1, 1);
 }
+
+#content > .about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+#content > .about-us h1{
+    color: #1a3775;
+}
+
+#content > .about-us .details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #14213D;
+    color: white;
+    border: #FCA311 solid 10px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#content > .about-us .details{
+    background-color: #FCA311;
+    padding: 30px;
+    border-radius: 30px;
+}

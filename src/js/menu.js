@@ -1,7 +1,7 @@
-import biryani from "./images/biryani.png"
-import burger from "./images/burger.png"
-import pizza from "./images/pizza.png"
-import taco from "./images/taco.png"
+import biryani from "../images/biryani.png"
+import burger from "../images/burger.png"
+import pizza from "../images/pizza.png"
+import taco from "../images/taco.png"
 
 function loadMenu(){
     let menuDiv = document.createElement("div");
